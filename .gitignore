@@ -6,6 +6,9 @@ lib64/*
 pyvenv.cfg
 venv/
 .vercel/
+venv/
+__pycache__/
+.DS_Store
 
 
 # Cache do Python
