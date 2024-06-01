@@ -1,0 +1,23 @@
+# Ambiente virtual
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Arquivos de configuração
+instance/
+.config
+.env
+
+# IDEs
+.vscode/
+.idea/
