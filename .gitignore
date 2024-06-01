@@ -2,8 +2,11 @@
 bin/
 include/
 lib/
-lib64/
+lib64/*
 pyvenv.cfg
+venv/
+.vercel/
+
 
 # Cache do Python
 __pycache__/
@@ -21,3 +24,4 @@ instance/
 # IDEs
 .vscode/
 .idea/
+.vercel
