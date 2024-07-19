@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Luiz Felipe Maia</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="/">Meu Portfólio</a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="/">
+            <img alt="Logo" src="/static/images/Software engineer portfolio website identity featuring a stylized lion emblem that represents 2.png" style="height: 80px;">
+        </a>        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,25 +31,25 @@
     </nav>
     <header class="text-center">
         <div class="container">
-            <h1>Bem-vindo ao Meu Portfólio</h1>
+            <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Bem-vindo ao Meu Portfólio</h1>
             <p>Conheça mais sobre minha carreira e habilidades.</p>
         </div>
     </header>
     <section id="about" class="text-center">
         <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>Descrição breve sobre sua carreira e trajetória profissional.</p>
+            <h2 class="about">Sobre Mim</h2>
+            <p class="about">Descrição breve sobre sua carreira e trajetória profissional.</p>
         </div>
     </section>
-    <section id="skills" class="bg-light text-center">
+    <section id="skills" class="text-center">
         <div class="container">
-            <h2>Habilidades</h2>
-            <p>Descrição das suas principais habilidades.</p>
+            <h2 class="skills">Habilidades</h2>
+            <p class="skills">Descrição das suas principais habilidades.</p>
         </div>
     </section>
     <section id="projects" class="text-center">
         <div class="container">
-            <h2>Projetos</h2>
+            <h2 class="title">Projetos</h2>
             <div id="projectCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -79,20 +81,20 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="bg-light text-center">
+    <section id="contact" class="text-center">
         <div class="container">
-            <h2>Contatos e Redes Sociais</h2>
-            <p>Links para suas redes sociais e formas de contato.</p>
+            <h2 class="footer">Contatos e Redes Sociais</h2>
+            <p class="footer">Links para suas redes sociais e formas de contato.</p>
             <div class="contact">
-                <a href="https://github.com/seu-usuario" class="btn btn-dark" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/seu-usuario" class="btn btn-primary" target="_blank">LinkedIn</a>
-                <a href="mailto:seuemail@dominio.com" class="btn btn-secondary">Email</a>
+                <a href="https://github.com/LuizFelipeAlvesMaia" class="btn btn-dark" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/luiz-felipe-m-6417ab93/" class="btn btn-primary" target="_blank">LinkedIn</a>
+                <a href="mailto:luiz.maia08@hotmail.com" class="btn btn-secondary">Email</a>
             </div>
         </div>
     </section>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+            <p>&copy; Desenvolvido com amor <3.</p>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
