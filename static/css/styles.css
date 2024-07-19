@@ -3,6 +3,9 @@ body {
   background-color: #0f172a;
   padding-top: 56px; /* Espaço para a barra de navegação fixa */
 }
+img {
+    height: 80px;
+}
 
 .navbar-brand {
   font-size: 1.2em;
